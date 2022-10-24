@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--header-->
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.svg" alt="logo" height="53">
+            </a>
+            <nav class="navbar" data-navbar>
+               <p class="navbar-title">Main-Menu</p>
+               <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link" data-nav-link>
+                         Home
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link" data-nav-link>
+                         About
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link" data-nav-link>
+                         Project
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link" data-nav-link>
+                         Services
+                    </a>
+                </li>
+               
+               
+               </ul>
+            </nav>
+
+
+            <!--Mobile menu navigation-->
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true">
+
+                </ion-icon>
+            </button>
+            <a href="#" class="btn btn-primary">Contact Us</a>
+             
+             <!--Overlay on mobile screen-->
+            <div class="overlay" data-nav-toggler data-overlay></div>
+        </div>
+    </header>
+     
+    <!--Main-->
+    <main>
+        <article>
+            <section class="section hero" id="home" aria-label="Home">
+                <div class="container">
+                    <div class="hero-content"> 
+                        <h1 class="h1 section-title">
+                            Digital <span class="span">Products</span> design agency
+                        </h1>
+                        <p class="section-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <button class="btn btn-secondary">
+                            Get Started
+                        </button>
+                    </div>
+                    <figure class="hero-banner has-shape">  
+                        <img src="./assets/images/hero-banner.png"  width="521" height="675" alt="hero-banner" class="w-100">
+                        <img src="./assets/images/hero-shape-1.svg" alt="shape" class="shape">
+                    </figure>
+                </div>
+            </section>
+               <!--services-->
+            <section class="section service has-shape" id="services" aria-label="service">
+                <div class="container">
+                    <div class="title-wrapper">
+                        <h2 class="h2 section-title">
+                            Our Included <span class="span">Services</span>
+                        </h2>
+                        <p class="section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A adipisci deleniti omnis repellendus ipsa sunt ex aspernatur quo numquam praesentium quod placeat eum odio optio vel, animi repudiandae maxime quos!</p>
+                    </div>
+                    <ul class="grid-list">
+                        <li>
+                            <div class="service-card">
+                                <figure class="card-icon">
+                                    <img src="./assets/images/service-1.svg" width="60" height="60" alt="service-icon">
+                                </figure>
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">
+                                        Mobile apps
+                                    </a>
+                                </h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-card">
+                                <figure class="card-icon">
+                                    <img src="./assets/images/service-2.svg" width="60" height="60" alt="service-icon">
+                                </figure>
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">
+                                        Mobile apps
+                                    </a>
+                                </h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-card">
+                                <figure class="card-icon">
+                                    <img src="./assets/images/service-3.svg" width="60" height="60" alt="service-icon">
+                                </figure>
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">
+                                        Mobile apps
+                                    </a>
+                                </h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-card">
+                                <figure class="card-icon">
+                                    <img src="./assets/images/service-4.svg" width="60" height="60" alt="service-icon">
+                                </figure>
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">
+                                        Mobile apps
+                                    </a>
+                                </h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur </p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <img src="./assets/images/circle-shape.svg" width="158" height="158" alt="circle svg" class="shape shape-1">
+                     <img src="./assets/images/triangle-shape-1.svg"  width="158" height="158" alt="" class="shape shape-2">
+                </div>
+            </section>
+
+               <!--About-->
+               <section class="section about" id="about" aria-label="about">
+                  <div class="container">
+                      <figure class="about-banner has-shape">
+                          <img src="./assets/images/about-banner.png" alt="about" width="500" height="611" class="w-100">
+                          <img src="./assets/images/banner-shape.svg" width="108" height="80" alt="" class="shape">
+                      </figure>
+                      <div class="about-content">
+                        <h2 class="h2 section-title">
+                            We have been helping <span class="span">Customers</span> globally.
+                        </h2>
+                        <p class="section-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deserunt animi laboriosam libero facilis architecto, soluta voluptatibus culpa sint dolor, ducimus eaque dicta atque debitis modi sunt. Ducimus, consequuntur reiciendis!
+                        </p>
+                        <a href="#" class="btn btn-outline">More About Us</a>
+                      </div>
+                  </div>
+               </section>
+
+
+               <!--project-->
+
+               <section class="section project" aria-label="project">
+                    <div class="container">
+                        <div class="title-wrapper">
+                            <div>
+                                <div>
+                                    <h2 class="h2 section-title">
+                                        Our Recent <span class="span">Projects.</span>
+                                    </h2>
+                                    <p class="section-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe architecto necessitatibus consequuntur minima delectus voluptate nobis, unde nam corporis cum sequi enim expedita? Quis qui, rem ducimus porro fugiat excepturi.
+                                    </p>
+                                </div>
+                                <a href="#" class="btn-link">
+                                    <span class="span">Show More Projects</span>
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+                            </div>
+                        </div>
+
+                        <ul class="project-list">
+                            <li>
+                                <div class="project-card">
+                                    <figure class="card-banner img-holder" style="--width: 615; --height: 391;">
+                                    <img src="./assets/images/project-1.png" width="615" height="391" alt="" class="img-cover">
+
+                                    </figure>
+                                    <div class="card-content">
+                                        <div>
+                                            <h3 class="h3">
+                                                <a href="#" class="card-title hover:underline">Plastic Credit Card</a>
+                                            </h3>
+                                            <p class="card-tag">Identity, Mockup</p>
+                                        </div>
+                                        <a href="" class="card-link" aria-label="product details">
+                                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="project-card">
+                                    <figure class="card-banner img-holder" style="--width: 615; --height: 391;">
+                                    <img src="./assets/images/project-2.png" width="615" height="391" alt="" class="img-cover">
+
+                                    </figure>
+                                    <div class="card-content">
+                                        <div>
+                                            <h3 class="h3">
+                                                <a href="#" class="card-title hover:underline">Plastic Credit Card</a>
+                                            </h3>
+                                            <p class="card-tag">Identity, Mockup</p>
+                                        </div>
+                                        <a href="" class="card-link" aria-label="product details">
+                                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="project-card">
+                                    <figure class="card-banner img-holder" style="--width: 390; --height: 391;">
+                                    <img src="./assets/images/project-3.png" width="390" height="391" alt="" class="img-cover">
+
+                                    </figure>
+                                    <div class="card-content">
+                                        <div>
+                                            <h3 class="h3">
+                                                <a href="#" class="card-title hover:underline">Plastic Credit Card</a>
+                                            </h3>
+                                            <p class="card-tag">Identity, Mockup</p>
+                                        </div>
+                                        <a href="" class="card-link" aria-label="product details">
+                                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="project-card">
+                                    <figure class="card-banner img-holder" style="--width: 390; --height: 391;">
+                                    <img src="./assets/images/project-4.png" width="390" height="391" alt="" class="img-cover">
+
+                                    </figure>
+                                    <div class="card-content">
+                                        <div>
+                                            <h3 class="h3">
+                                                <a href="#" class="card-title hover:underline">Plastic Credit Card</a>
+                                            </h3>
+                                            <p class="card-tag">Identity, Mockup</p>
+                                        </div>
+                                        <a href="" class="card-link" aria-label="product details">
+                                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="project-card">
+                                    <figure class="card-banner img-holder" style="--width: ; --height: ;">
+                                    <img src="./assets/images/project-5.png" width="390" height="391" alt="" class="img-cover">
+
+                                    </figure>
+                                    <div class="card-content">
+                                        <div>
+                                            <h3 class="h3">
+                                                <a href="#" class="card-title hover:underline">Plastic Credit Card</a>
+                                            </h3>
+                                            <p class="card-tag">Identity, Mockup</p>
+                                        </div>
+                                        <a href="" class="card-link" aria-label="product details">
+                                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+               </section>
+
+               <!--Blogs-->
+
+               <section class="section blog" aria-label="blog">
+                   <div class="container">
+                      <div class="title-wrapper">
+                        <h2 class="h2 section-title">
+                            Our inside <span class="span">Stories.</span>
+                        </h2>
+                        <a href="#" class="btn-link">
+                            <span class="span">Check All Our News</span>
+                            <ion-icon name="arrow-forward" aria-hidden="true">
+
+                            </ion-icon>
+
+                        </a>
+                      </div>
+                      <ul class="grid-list">
+                        <li>
+                            <div class="blog-card">
+                                <div class="card-banner img-holder" style="--width: 595; --height: 391; ">
+                                   <img src="./assets/images/blog-1.png" width="595" height="391" alt="" class="img-cover">
+                                   <button class="card-tag">Grid Layout</button>
+                                </div>
+                                <div class="card-content">
+                                    <ul class="meta-list">
+                                        <li class="meta-item">
+                                            <img src="./assets/images/author-1.png" width="18" height="18" alt="" class="author-img">
+                                            <p class="meta-item-text">Amit Thapliyal</p>
+                                        </li>
+                                        <li class="meta-item">
+                                            <ion-icon name="calendar-clear-outline" aria-hidden="true">
+
+                                            </ion-icon>
+                                         
+                                            <time datetime="2022-12-11" class="meta-item-text">Decmber 12, 2022</time>
+
+                                        </li>
+                                    </ul>
+                                    <h3 class="h3">
+                                        <a href="" class="card-title hover:underline">
+                                            Designer Chechlist for project
+                                        </a>
+                                    </h3>
+                                    <a href="#" class="btn-link">
+                                        <span class="span">
+                                            Read More
+                                        </span>
+                                        <ion-icon name="arrow-forward"></ion-icon>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+                                <div class="card-banner img-holder" style="--width: 595; --height: 391; ">
+                                   <img src="./assets/images/blog-2.png" width="595" height="391" alt="" class="img-cover">
+                                   <button class="card-tag">Grid Layout</button>
+                                </div>
+                                <div class="card-content">
+                                    <ul class="meta-list">
+                                        <li class="meta-item">
+                                            <img src="./assets/images/author-2.png" width="18" height="18" alt="" class="author-img">
+                                            <p class="meta-item-text">Amit Thapliyal</p>
+                                        </li>
+                                        <li class="meta-item">
+                                            <ion-icon name="calendar-clear-outline" aria-hidden="true">
+
+                                            </ion-icon>
+                                         
+                                            <time datetime="2022-12-11" class="meta-item-text">Decmber 12, 2022</time>
+
+                                        </li>
+                                    </ul>
+                                    <h3 class="h3">
+                                        <a href="" class="card-title hover:underline">
+                                            Designer Chechlist for project
+                                        </a>
+                                    </h3>
+                                    <a href="#" class="btn-link">
+                                        <span class="span">
+                                            Read More
+                                        </span>
+                                        <ion-icon name="arrow-forward"></ion-icon>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+                                <div class="card-banner img-holder" style="--width: 595; --height: 391; ">
+                                   <img src="./assets/images/blog-3.png" width="595" height="391" alt="" class="img-cover">
+                                   <button class="card-tag">Grid Layout</button>
+                                </div>
+                                <div class="card-content">
+                                    <ul class="meta-list">
+                                        <li class="meta-item">
+                                            <img src="./assets/images/author-1.png" width="18" height="18" alt="" class="author-img">
+                                            <p class="meta-item-text">Amit Thapliyal</p>
+                                        </li>
+                                        <li class="meta-item">
+                                            <ion-icon name="calendar-clear-outline" aria-hidden="true">
+
+                                            </ion-icon>
+                                           
+                                            <time datetime="2022-12-11" class="meta-item-text">December 12, 2022</time>
+
+                                        </li>
+                                    </ul>
+                                    <h3 class="h3">
+                                        <a href="" class="card-title hover:underline">
+                                            Designer Checklist for project
+                                        </a>
+                                    </h3>
+                                    <a href="#" class="btn-link">
+                                        <span class="span">
+                                            Read More
+                                        </span>
+                                        <ion-icon name="arrow-forward"></ion-icon>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </li>
+                      </ul>
+                   </div>
+               </section>
+
+
+
+        </article>
+    </main>
+
+     <!--Footer-->
+     <footer class="footer">
+        <div class="container">
+            <div class="footer-top section">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/logo.svg" alt="" width="209" height="52">
+                    </a>
+                    <a href="mailto:info@gmail.com" class="footer-link">info@gmail.com</a>
+                    <a href="tel:+91-89797994241" class="footer-link">+91-89797994241</a>
+                    <ul class="social-list">
+                          <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook">
+
+                                </ion-icon>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter">
+                                    
+                                </ion-icon>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-pinterest">
+                                    
+                                </ion-icon>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-dribbble">
+                                    
+                                </ion-icon>
+                            </a>
+                          </li>
+                    </ul>
+                </div>
+
+                <ul class="footer-list">
+                    <li>
+                        <p class="h4 footer-list-title">
+                            Links
+                        </p>
+                    </li>
+                    <li>
+                        <p class="footer-link">
+                            Company
+                        </p>
+                    </li>
+                    <li>
+                        <p class="footer-link">
+                            Blogs
+                        </p>
+                    </li>
+                    <li>
+                        <p class="footer-link">
+                            Home
+                        </p>
+                    </li>
+                    <li>
+                        <p class="footer-link">
+                            Projects
+                        </p>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li>
+                        <p class="h4 footer-list-title">
+                            Links
+                        </p>
+                    </li>
+                    <li>
+                        <p class="footer-link">
+                            Company
+                        </p>
+                    </li>
+                    <li>
+                        <p class="footer-link">
+                            Blogs
+                        </p>
+                    </li>
+                    <li>
+                        <p class="footer-link">
+                            Home
+                        </p>
+                    </li>
+                    <li>
+                        <p class="footer-link">
+                            Projects
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">
+                    Copyright 2022 All rights reserved By Amit Thapliyal
+                </p>
+            </div>
+        </div>
+     </footer>
+   
+
+
+    <script src="./assets/js/script.js" defer></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
